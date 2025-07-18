@@ -10,7 +10,7 @@ MODEL_INPUT_SIZE = 128
 class DigitRecognizerApp:
     def __init__(self, master):
         self.master = master
-        master.title("Two-Digit Live Recognizer")
+        master.title("Two-Digit Live Recognition Software")
         master.configure(bg="#f0f0f0")
 
         self.canvas = tk.Canvas(master, width=400, height=400, bg="white", cursor="cross")
